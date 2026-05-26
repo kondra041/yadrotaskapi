@@ -1,0 +1,13 @@
+package kondryukov.yadrotaskapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class YadrotaskapiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(YadrotaskapiApplication.class, args);
+	}
+
+}
