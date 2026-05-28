@@ -6,3 +6,4 @@ CREATE TABLE public.users (
     gender VARCHAR(10) NOT NULL,
     phone VARCHAR(20) NOT NULL,
     address TEXT NOT NULL;
+);
