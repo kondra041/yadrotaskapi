@@ -21,7 +21,7 @@ cd yadrotaskapi
 #### Сборка и запуск всех сервисов (Docker)
 
 ```bash
-docker-compose up --build
+docker-compose up
 ```
 
 ## 3. Доступ к сервисам
