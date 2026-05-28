@@ -1,9 +1,8 @@
 CREATE TABLE public.users (
     id BIGSERIAL PRIMARY KEY,
-    email VARCHAR(255),
-    first_name VARCHAR(255),
-    last_name VARCHAR(255),
-    gender VARCHAR(50),
-    phone VARCHAR(50),
-    address VARCHAR(255)
-);
+    email TEXT NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    address TEXT NOT NULL;
