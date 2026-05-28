@@ -5,5 +5,5 @@ CREATE TABLE public.users (
     last_name VARCHAR(50) NOT NULL,
     gender VARCHAR(10) NOT NULL,
     phone VARCHAR(20) NOT NULL,
-    address TEXT NOT NULL;
+    address TEXT NOT NULL
 );
